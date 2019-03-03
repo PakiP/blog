@@ -7,17 +7,15 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+          <section className="banner"></section>
+          <h1>WELCOME</h1>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://www.google.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            to Google
           </a>
         </header>
       </div>
